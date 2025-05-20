@@ -52,3 +52,30 @@
 
 📌 **Example Output:**
 > `The sum of natural numbers from 1 to 50 is 1275.` ✅
+
+
+## 📄 task5.py — Factorial Calculator
+
+🧮 **Functionality:**
+- Asks the user for a **non-negative integer**.
+- Calculates its **factorial** using recursion.
+- 📣 Displays the result.
+
+📌 **Example Output:**
+> `The factorial of 5 is 120.`
+
+
+## 📄 task6.py — Math Function Evaluator
+
+🧠 **Functionality:**
+- Prompts the user to input a **number** (`float`).
+- Uses the `math` module to perform:
+  - 📐 **Square Root** (`math.sqrt`)
+  - 🔢 **Natural Logarithm** (`math.log`)
+  - 🌊 **Sine** (`math.sin`)
+
+🖥️ **Output:**
+- Displays the calculated:
+  - ✅ Square root
+  - ✅ Logarithm
+  - ✅ Sine of the number
