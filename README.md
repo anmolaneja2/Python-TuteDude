@@ -31,4 +31,24 @@
 
 ---
 
-✨ _These tasks are great for practicing basic input handling, string operations, and exception management in Python!_
+## 📄 task3.py — Even or Odd Checker
+
+🔢 **Functionality:**
+- 🔎 Prompts the user to enter an integer.
+- 🧠 Uses conditional logic to determine if the number is **even** or **odd**.
+- 📣 Prints the result.
+
+📌 **Example Output:**
+> `The number 7 is odd.`
+
+---
+
+## 📄 task4.py — Sum of Natural Numbers (1 to 50)
+
+🔁 **Functionality:**
+- 📈 Uses a `for` loop to calculate the **sum of natural numbers from 1 to 50**.
+- ➕ Continuously adds each number in the range.
+- 📣 Displays the final sum.
+
+📌 **Example Output:**
+> `The sum of natural numbers from 1 to 50 is 1275.` ✅
