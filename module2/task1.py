@@ -8,22 +8,18 @@
 # o	Division
 # 3.  Displays the results of each operation on the screen.
 
-print("Enter two numbers:")
-num1 = float(input("Number 1: "))
-num2 = float(input("Number 2: "))
-print("Performing basic mathematical operations...")
-# Addition
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter The second number: "))
+
+
 addition = num1 + num2
-print(f"Addition: {addition}")
-# Subtraction
 subtraction = num1 - num2
-print(f"Subtraction: {subtraction}")
-# Multiplication
 multiplication = num1 * num2
+print(f"Addition: {addition}")
+print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
-# Division
 if num2 != 0:
     division = num1 / num2
     print(f"Division:  {division}")
 else:
-    print("Division: Cannot divide by zero.")
+    print("Cannot divide by zero")
