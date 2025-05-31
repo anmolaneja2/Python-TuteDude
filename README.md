@@ -115,3 +115,35 @@
 > Final content of output.txt:  
 > Hello  
 > World
+
+
+
+## 📄 task9.py — Student Marks Lookup
+🎯 **Functionality:**
+- Maintains a dictionary `student_marks` that stores student names and their respective marks.
+- Prompts the user to **enter a student’s name**.
+- Checks if the name exists in the dictionary:
+  - ✅ If found, displays the student's marks.
+  - ❌ If not found, prints a **"Student not found"** message.
+
+🧠 **Dictionary Used:**
+```python
+student_marks = {
+    "anmol": 92,
+    "Rohan": 76,
+    "Priya": 85,
+    "Sneha": 90,
+    "jenny": 99,
+    "khushi": 92
+}
+
+## 📄 task9.py — List Creation, Slicing & Reversing
+📌 **Description:**
+- Generates a list of numbers from **1 to 10**.
+- Extracts the **first five elements**.
+- Prints the **original list**, the **sliced sublist**, and its **reversed** version.
+
+🧮 **Key Concepts:**
+- List creation using `append()`
+- Slicing syntax: `list[:5]`
+- Reversing a list: `list[::-1]`
