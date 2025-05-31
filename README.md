@@ -79,3 +79,39 @@
   - ✅ Square root
   - ✅ Logarithm
   - ✅ Sine of the number
+
+
+
+  ## 📄 task7.py — File Reader with Error Handling
+
+📂 **Functionality:**
+- 📄 Tries to **open and read** a file named `sample.txt`.
+- 📌 Displays the file content **line by line**, each with its corresponding **line number**.
+
+🛡️ **Error Handling:**
+- 🚫 If the file is **not found**, it prints a user-friendly **error message** without crashing.
+
+📌 **Example Output:**
+> Reading file content:  
+> Line 1: This is the first line  
+> Line 2: It contains multiple lines  
+
+📌 **If file is missing:**
+> Error: The file sample.txt was not found
+
+## 📄 task8.py — File Writer, Appender & Reader
+
+✍️ **Functionality:**
+- Prompts the user to **enter text**, which is **written to a file** named `sample2.txt`.
+- Then asks for **additional text** and **appends** it to the same file.
+- Finally, **reads and displays** the full content of the file **line by line**.
+
+🖥️ **Output:**
+- Prints each line from the file after writing and appending.
+
+📌 **Example Output:**
+> Enter text to write to the file: Hello  
+> Enter additional text to append: World  
+> Final content of output.txt:  
+> Hello  
+> World
